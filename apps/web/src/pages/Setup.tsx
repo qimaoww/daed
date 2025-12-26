@@ -185,7 +185,7 @@ export function SetupPage() {
           {t('what for')}{' '}
           <a
             target="_blank"
-            href="https://github.com/daeuniverse/dae"
+            href="https://github.com/qimaoww/dae"
             className="text-primary hover:underline"
             rel="noreferrer"
           >

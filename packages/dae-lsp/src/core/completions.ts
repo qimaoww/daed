@@ -184,7 +184,7 @@ export const DAE_COMPLETION_ITEMS: DaeCompletionItem[] = [
     kind: 'property',
     detail: 'uTLS Imitate',
     documentation:
-      'Browser fingerprint to imitate when tls_implementation is utls. See: https://github.com/daeuniverse/dae/blob/main/component/outbound/transport/tls/utls.go',
+      'Browser fingerprint to imitate when tls_implementation is utls. See: https://github.com/qimaoww/dae/blob/main/component/outbound/transport/tls/utls.go',
     insertText:
       'utls_imitate: ${1|chrome_auto,firefox_auto,safari_auto,edge_auto,ios_auto,randomized,chrome_58,chrome_62,chrome_70,chrome_72,chrome_83,chrome_87,chrome_96,chrome_100,chrome_102,firefox_55,firefox_56,firefox_63,firefox_65,firefox_99,firefox_102,firefox_105,safari_16_0,edge_85,edge_106,ios_11_1,ios_12_1,ios_13,ios_14,android_11_okhttp,360_auto,360_7_5,360_11_0,qq_auto,qq_11_1,randomizedalpn,randomizednoalpn|}',
     isSnippet: true,

@@ -44,7 +44,7 @@ Nodes defined here will be merged as a part of the global node pool.
 
 **Supported protocols:** socks5, http, https, ss, ssr, vmess, vless, trojan, tuic, juicity, hysteria2, hysteria
 
-Full support list: https://github.com/daeuniverse/dae/blob/main/docs/en/proxy-protocols.md
+Full support list: https://github.com/qimaoww/dae/blob/main/docs/en/proxy-protocols.md
 
 Example:
 \`\`\`dae
@@ -61,7 +61,7 @@ node {
 
 Configure DNS resolution and routing.
 
-See: https://github.com/daeuniverse/dae/blob/main/docs/en/configuration/dns.md
+See: https://github.com/qimaoww/dae/blob/main/docs/en/configuration/dns.md
 
 Contains:
 - \`ipversion_prefer\`: Prefer IPv4 (4) or IPv6 (6) responses
@@ -90,7 +90,7 @@ Define proxy groups for load balancing.
 
 Define traffic routing rules.
 
-See: https://github.com/daeuniverse/dae/blob/main/docs/en/configuration/routing.md
+See: https://github.com/qimaoww/dae/blob/main/docs/en/configuration/routing.md
 
 **Format:** \`condition -> outbound\`
 
@@ -125,7 +125,7 @@ export const PARAM_DOCS: Record<string, string> = {
   wan_interface:
     'The WAN interface to bind. Use it if you want to proxy localhost.\nMultiple interfaces split by ",". Use "auto" to auto detect.\n\nDefault: `auto`',
   auto_config_kernel_parameter:
-    'Automatically configure Linux kernel parameters like `ip_forward` and `send_redirects`.\n\nSee: https://github.com/daeuniverse/dae/blob/main/docs/en/user-guide/kernel-parameters.md\n\nDefault: `true`',
+    'Automatically configure Linux kernel parameters like `ip_forward` and `send_redirects`.\n\nSee: https://github.com/qimaoww/dae/blob/main/docs/en/user-guide/kernel-parameters.md\n\nDefault: `true`',
   auto_config_firewall_rule: 'Automatically configure firewall rules.\n\nDefault: `true`',
 
   // Node connectivity check
