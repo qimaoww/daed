@@ -63,7 +63,16 @@ export interface V2rayConfig {
  * Shadowsocks (SS) schema
  */
 export interface SSConfig {
-  method: 'aes-128-gcm' | 'aes-256-gcm' | 'chacha20-poly1305' | 'chacha20-ietf-poly1305' | 'plain' | 'none'
+  method:
+    | 'aes-128-gcm'
+    | 'aes-256-gcm'
+    | 'chacha20-poly1305'
+    | 'chacha20-ietf-poly1305'
+    | '2022-blake3-aes-128-gcm'
+    | '2022-blake3-aes-256-gcm'
+    | '2022-blake3-chacha20-poly1305'
+    | 'plain'
+    | 'none'
   plugin: '' | 'simple-obfs' | 'v2ray-plugin'
   obfs: 'http' | 'tls'
   tls: '' | 'tls'
@@ -134,7 +143,14 @@ export interface TrojanConfig {
   port: number
   password: string
   method: 'origin' | 'shadowsocks'
-  ssCipher: 'aes-128-gcm' | 'aes-256-gcm' | 'chacha20-poly1305' | 'chacha20-ietf-poly1305'
+  ssCipher:
+    | 'aes-128-gcm'
+    | 'aes-256-gcm'
+    | 'chacha20-poly1305'
+    | 'chacha20-ietf-poly1305'
+    | '2022-blake3-aes-128-gcm'
+    | '2022-blake3-aes-256-gcm'
+    | '2022-blake3-chacha20-poly1305'
   ssPassword: string
   obfs: 'none' | 'websocket'
 }
